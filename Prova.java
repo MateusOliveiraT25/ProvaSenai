@@ -16,7 +16,7 @@ public class Prova {
         double ac4 = num1 * num2;
         if (opA == 1)  System.out.println("Resultado é: "+ ac1);
         else if (opA == 2)  System.out.println("Resultado é: "+ ac2);
-        else if (opA == 3)  System.out.println("Resultado é: "+ ac3);
+        else if (opA == 3) System.out.println("Resultado é: "+ ac3);
         else System.out.println("Resultado é: "+ ac4);}
         public void exercicio2() {
             System.out.println("Informe o numero da matricula do aluno 1 a 400?");
@@ -41,22 +41,12 @@ public class Prova {
             double precoBananas = 1.30;
             double pesoTotal = pesoMorangos+pesoMacas+pesoBananas;
             double precoTotal = (pesoMorangos*precoMorango) + (pesoMacas*precoMacas) +(pesoBananas*precoBananas);
-           double desconto = precoTotal*0.1;
+           double desconto = precoTotal*0.1; 
            double preçoDesconto = precoTotal - desconto;
             if (pesoMorangos+pesoMacas+pesoBananas >=8 ) System.out.println("O preço total é R$"+preçoDesconto);
           else if (pesoTotal <8 ) System.out.println("O preço total é R$ "+precoTotal);
           else if (precoMorango+precoMacas+precoBananas >=25 ) System.out.println("O preço total é "+preçoDesconto);
           else  System.out.println("O preço total é R$ "+precoTotal);
-           
-            
-
-            
-
-            
-
-            
-
-    
-
         }}
 
+  
